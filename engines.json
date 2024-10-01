@@ -1,0 +1,100 @@
+[
+  {
+    "_name": "Google Scholar",
+    "_alias": "Google Scholar",
+    "_description": "Google Scholar Search",
+    "_icon": "file:///C:/Users/orjan/Zotero/locate/Google%20Scholar%20Search.ico",
+    "_hidden": false,
+    "_urlTemplate": "https://scholar.google.com/scholar?as_q=&as_epq={z:title}&as_occt=title&as_sauthors={rft:aufirst?}+{rft:aulast?}&as_ylo={z:year?}&as_yhi={z:year?}&as_sdt=1.&as_sdtp=on&as_sdtf=&as_sdts=22&",
+    "_urlParams": [],
+    "_urlNamespaces": {
+      "rft": "info:ofi/fmt:kev:mtx:journal",
+      "z": "http://www.zotero.org/namespaces/openSearch#",
+      "": "http://a9.com/-/spec/opensearch/1.1/"
+    },
+    "_iconSourceURI": "https://scholar.google.com/favicon.ico"
+  },
+  {
+    "_name": "CrossRef",
+    "_alias": "CrossRef",
+    "_description": "CrossRef Search",
+    "_icon": "https://www.crossref.org/favicon.ico",
+    "_hidden": false,
+    "_urlTemplate": "http://crossref.org/openurl?{z:openURL}&pid=zter:zter321",
+    "_urlParams": [],
+    "_urlNamespaces": {
+      "z": "http://www.zotero.org/namespaces/openSearch#",
+      "": "http://a9.com/-/spec/opensearch/1.1/"
+    },
+    "_iconSourceURI": "http://crossref.org/favicon.ico"
+  },
+  {
+    "name": "Sci-Hub DOI",
+    "alias": "Sci-Hub DOI",
+    "icon": "http://sci-hub.tw/favicon.ico",
+    "_urlTemplate": "http://sci-hub.tw/{z:DOI}",
+    "description": "SciHub Lookup Lookup",
+    "hidden": false,
+    "_urlParams": [],
+    "_urlNamespaces": {
+      "z": "http://www.zotero.org/namespaces/openSearch#"
+    },
+    "_iconSourceURI": "http://sci-hub.tw/favicon.ico"
+  },
+  {
+    "name": "Sci-Hub URL",
+    "alias": "Sci-Hub URL",
+    "icon": "https://lh3.googleusercontent.com/sOX00LxhvUoMVoBEtSGXV9t10d57n4G1Q26wGc2nDmbh2l_elVUti-ULnTsUBnDlNM4_aab70w=s128-h128-e365",
+    "_urlTemplate": "http://sci-hub.tw/{z:url}",
+    "description": "SciHub URL Lookup",
+    "hidden": false,
+    "_urlParams": [],
+    "_urlNamespaces": {
+      "z": "http://www.zotero.org/namespaces/openSearch#"
+    },
+    "_iconSourceURI": "https://lh3.googleusercontent.com/sOX00LxhvUoMVoBEtSGXV9t10d57n4G1Q26wGc2nDmbh2l_elVUti-ULnTsUBnDlNM4_aab70w=s128-h128-e365"
+  },
+  {
+    "name": "LibGen",
+    "alias": "LibGen",
+    "icon": "http://gen.lib.rus.ec/favicon.ico",
+    "_urlTemplate": "http://gen.lib.rus.ec/search.php?req={rft:aufirst?}+{rft:aulast?}+{rft:title?}+{z:ISBN?}",
+    "description": "Look up books on Library Genesis",
+    "hidden": false,
+    "_urlParams": [],
+    "_method": "GET",
+    "_urlNamespaces": {
+      "rft": "info:ofi/fmt:kev:mtx:book",
+      "xmlns": "http://a9.com/-/spec/opensearch/1.1/",
+      "z": "http://www.zotero.org/namespaces/openSearch#"
+    },
+    "_iconSourceURI": "http://gen.lib.rus.ec/favicon.ico"
+  },
+  {
+    "_name": "scite",
+    "_alias": "scite",
+    "_description": "Search for reports on scite-.ai",
+    "_icon": "https://cdn.scite.ai/assets/images/favicon.ico",
+    "_hidden": false,
+    "_urlTemplate": "https://scite.ai/reports/{z:DOI?}",
+    "_urlParams": [],
+    "_method": "GET",
+    "_urlNamespaces": {
+      "rft": "info:ofi/fmt:kev:mtx:book",
+      "xmlns": "http://a9.com/-/spec/opensearch/1.1/",
+      "z": "http://www.zotero.org/namespaces/openSearch#"
+    }
+  },
+  {
+    "_name": "Semantic Scholar",
+    "_alias": "Semantic Scholar",
+    "_description": "Search Semantic Scholar",
+    "_icon": "https://www.semanticscholar.org/img/favicon.png",
+    "_hidden": false,
+    "_urlTemplate": "https://www.semanticscholar.org/search?q={z:title}",
+    "_urlParams": [],
+    "_urlNamespaces": {
+      "z": "http://www.zotero.org/namespaces/openSearch#"
+    }
+  }
+]
